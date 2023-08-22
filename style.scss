@@ -1,0 +1,106 @@
+$primary:#344966;
+$secondary: #B4CDED;
+$tertiary: #136e85;
+$light: #F6FFF8;
+$dark: #000000;
+
+@mixin flex-center-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    background-color: $dark;
+
+    span {
+        font-size: 20px;
+        font-weight: 600px;
+        color: $light;
+    }
+
+    nav a {
+        margin: 0 1rem;
+        text-decoration: none;
+        color: $light;
+    }
+}
+
+
+#hero {
+    height: 700px;
+    @include flex-center-center;
+
+    .container {
+        max-width: 1200px;
+        width: 100%;
+        @include flex-center-center;
+        
+        .hero-text {
+            width: 600px;
+            margin-right: 10rem;
+        }
+
+        button {
+            border: 0;
+            border-radius: 1rem;
+            cursor: pointer;
+            background-color: $dark;
+            color: $light;
+            padding: 1rem 2rem;
+            font-size: 20px;
+            transition: .3s;
+
+            &:hover{
+                background-color: $tertiary;
+                color: $dark;
+
+            }
+            
+            
+        }
+    }
+}
+
+
+#about {
+    height: 700px;
+    @include flex-center-center;
+    background-color: $secondary;
+
+    .container {
+        max-width: 1200px;
+        width: 100%;
+        @include flex-center-center;
+        
+        .about-text {
+            width: 600px;
+            margin-right: 10rem;
+        }
+
+     
+    }
+}
+
+#footer {
+    @include flex-center-center;
+    background-color:$tertiary;
+    color: $dark;
+
+    .container-text{
+        font-size: 1rem;
+        font-weight: 600;
+       
+    }
+
+}

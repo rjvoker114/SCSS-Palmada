@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+  background-color: #000000;
+}
+header span {
+  font-size: 20px;
+  font-weight: 600px;
+  color: #F6FFF8;
+}
+header nav a {
+  margin: 0 1rem;
+  text-decoration: none;
+  color: #F6FFF8;
+}
+
+#hero {
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#hero .container {
+  max-width: 1200px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#hero .container .hero-text {
+  width: 600px;
+  margin-right: 10rem;
+}
+#hero .container button {
+  border: 0;
+  border-radius: 1rem;
+  cursor: pointer;
+  background-color: #000000;
+  color: #F6FFF8;
+  padding: 1rem 2rem;
+  font-size: 20px;
+  transition: 0.3s;
+}
+#hero .container button:hover {
+  background-color: #136e85;
+  color: #000000;
+}
+
+#about {
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #B4CDED;
+}
+#about .container {
+  max-width: 1200px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#about .container .about-text {
+  width: 600px;
+  margin-right: 10rem;
+}
+
+#footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #136e85;
+  color: #000000;
+}
+#footer .container-text {
+  font-size: 1rem;
+  font-weight: 600;
+}/*# sourceMappingURL=style.css.map */
