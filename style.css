@@ -73,6 +73,42 @@ header nav a {
   margin-right: 10rem;
 }
 
+#contact {
+  background-color: #F6FFF8;
+}
+
+.contact-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-form {
+  padding: 2rem;
+}
+
+form label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+form input[type=text],
+form input[type=email],
+form textarea {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+form button {
+  background-color: #000000;
+  color: #F6FFF8;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
 #footer {
   display: flex;
   justify-content: center;
